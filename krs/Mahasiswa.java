@@ -9,14 +9,13 @@ public class Mahasiswa {
     private List<MataKuliah> mataKuliahList;
     private int totalSks;
     
-    public Mahasiswa(String nim, String nama) {
+    public mahasiswa(String nim, String nama) {
         this.nim = nim;
         this.nama = nama;
         this.mataKuliahList = new ArrayList<>();
         this.totalSks = 0;
     }
     
-    // Getter methods
     public String getNim() {
         return nim;
     }
@@ -58,3 +57,4 @@ public class Mahasiswa {
         return false;
     }
 }
+

@@ -39,11 +39,11 @@ public class KRS {
         System.out.println("TTD KPS      : " + ttdKPS);
         System.out.println("==========================================\n");
     }
-    
-    // Getter methods
+
     public Mahasiswa getMahasiswa() {
         return mahasiswa;
     }
+
     
     public String getTtdKPS() {
         return ttdKPS;

@@ -1,3 +1,4 @@
+
 package krs;
 
 import java.util.Scanner;

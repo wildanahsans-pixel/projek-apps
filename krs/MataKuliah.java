@@ -1,3 +1,4 @@
+
 package krs;
 
 
@@ -29,4 +30,6 @@ public class MataKuliah {
     public String toString() {
         return kode + " - " + nama + " (" + sks + " SKS)";
     }
+
+
 }
