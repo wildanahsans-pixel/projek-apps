@@ -11,11 +11,10 @@ public class KRS {
     public KRS(Mahasiswa mahasiswa) {
         this.mahasiswa = mahasiswa;
         this.tanggalCetak = new Date();
-        // TTD KPS berdasarkan NIM dan Nama mahasiswa
         this.ttdKPS = "KPS - " + mahasiswa.getNim() + " - " + mahasiswa.getNama();
     }
     
-    // Method untuk mencetak KRS
+    
     public void cetakKRS() {
         System.out.println("\n==========================================");
         System.out.println("           KARTU RENCANA STUDI (KRS)");

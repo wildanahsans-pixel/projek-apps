@@ -32,7 +32,6 @@ public class Mahasiswa {
         return totalSks;
     }
     
-    // Method untuk menambah mata kuliah
     public boolean tambahMataKuliah(MataKuliah mk) {
         if (totalSks + mk.getSks() <= 24) {
             mataKuliahList.add(mk);
@@ -45,7 +44,6 @@ public class Mahasiswa {
         }
     }
     
-    // Method untuk menghapus mata kuliah
     public boolean hapusMataKuliah(String kode) {
         for (MataKuliah mk : mataKuliahList) {
             if (mk.getKode().equalsIgnoreCase(kode)) {

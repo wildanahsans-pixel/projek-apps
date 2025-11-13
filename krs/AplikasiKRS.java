@@ -71,7 +71,7 @@ public class AplikasiKRS {
         String nama = scanner.nextLine();
         System.out.print("SKS        : ");
         int sks = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
         
         if (sks <= 0) {
             System.out.println("SKS harus lebih dari 0!");

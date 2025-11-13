@@ -13,7 +13,6 @@ public class MataKuliah {
         this.sks = sks;
     }
     
-    // Getter methods
     public String getKode() {
         return kode;
     }
